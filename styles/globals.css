@@ -1,0 +1,30 @@
+@import './variable.css';
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-overflow-scrolling: touch;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #030710;
+}
+
+h1 {
+  color: var(--c-primary-text);
+}
