@@ -5,6 +5,7 @@ function SvgCharge(props) {
     <svg
       width="1em"
       height="1em"
+      fontSize={props.size}
       viewBox="0 0 16 19"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -16,7 +17,7 @@ function SvgCharge(props) {
         width={3}
         height={8.885}
         rx={1.5}
-        fill="#fff"
+        fill={props.color}
       />
       <rect
         x={6.391}
@@ -24,9 +25,16 @@ function SvgCharge(props) {
         width={3}
         height={13.731}
         rx={1.5}
-        fill="#fff"
+        fill={props.color}
       />
-      <rect opacity={0.5} x={13} width={3} height={19} rx={1.5} fill="#fff" />
+      <rect
+        opacity={0.5}
+        x={13}
+        width={3}
+        height={19}
+        rx={1.5}
+        fill={props.color}
+      />
     </svg>
   )
 }

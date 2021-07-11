@@ -3,10 +3,11 @@ import * as React from 'react'
 function SvgSpotify(props) {
   return (
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 2931 2931"
       width="1em"
       height="1em"
+      fontSize={props.size}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 2931 2931"
       {...props}
     >
       <path

@@ -3,11 +3,12 @@ import * as React from 'react'
 function SvgUber(props) {
   return (
     <svg
+      width="1em"
+      height="1em"
+      fontSize={props.size}
       id="Uber_svg__Layer_1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 400 400"
-      width="1em"
-      height="1em"
       {...props}
     >
       <style>{'.Uber_svg__st0{fill:#fff}'}</style>

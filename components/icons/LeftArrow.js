@@ -5,6 +5,7 @@ function SvgLeftArrow(props) {
     <svg
       width="1em"
       height="1em"
+      fontSize={props.size}
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -12,7 +13,7 @@ function SvgLeftArrow(props) {
     >
       <path
         d="M15 18l-6-6 6-6"
-        stroke="#fff"
+        stroke={props.color}
         strokeWidth={2}
         strokeLinecap="round"
         strokeLinejoin="round"

@@ -3,9 +3,10 @@ import * as React from 'react'
 function SvgNetflix(props) {
   return (
     <svg
-      height="1em"
-      viewBox="0.238 0.034 919.406 248.488"
       width="1em"
+      height="1em"
+      fontSize={props.size}
+      viewBox="0.238 0.034 919.406 248.488"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >

@@ -5,6 +5,7 @@ function SvgBitcoin(props) {
     <svg
       width="1em"
       height="1em"
+      fontSize={props.size}
       viewBox="0 0 86 87"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

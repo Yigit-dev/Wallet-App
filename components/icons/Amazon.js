@@ -3,9 +3,10 @@ import * as React from 'react'
 function SvgAmazon(props) {
   return (
     <svg
-      height="1em"
-      viewBox="2.167 0.438 251.038 259.969"
       width="1em"
+      height="1em"
+      fontSize={props.size}
+      viewBox="2.167 0.438 251.038 259.969"
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
