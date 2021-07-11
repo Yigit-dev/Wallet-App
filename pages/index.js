@@ -1,7 +1,10 @@
+import Layout from '../components/Layout/Layout'
+import TopBar from '../components/TopBar/TopBar'
+
 export default function Home() {
   return (
-    <div>
-      <h1>Wallett APP</h1>
-    </div>
+    <Layout>
+      <TopBar />
+    </Layout>
   )
 }

@@ -1,0 +1,9 @@
+.TopBar {
+  background: transparent;
+  padding: 43px 30px;
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
