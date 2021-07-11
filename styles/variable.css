@@ -1,3 +1,8 @@
 :root {
-  --c-primary-text: #fff;
+  --c-text: #fff;
+  --c-black: #030710;
+  --c-primary-text: #081c81;
+  --c-shadow-text: #6f8099;
+  --c-background: #081c81;
+  --c-background-light-blue: #2547f4;
 }

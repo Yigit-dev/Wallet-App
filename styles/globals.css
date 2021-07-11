@@ -22,9 +22,7 @@ body {
 }
 
 body {
-  background-color: #030710;
-}
-
-h1 {
-  color: var(--c-primary-text);
+  background-color: #000;
+  max-width: 640px;
+  margin: 0 auto;
 }
