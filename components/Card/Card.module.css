@@ -1,0 +1,26 @@
+.Card {
+  min-width: 200px;
+  width: 200px;
+  height: 260px;
+  border-radius: 16px;
+  padding: 22px 20px;
+  background: var(--c-background);
+
+  .Top {
+    @mixin SpaceBetween;
+  }
+
+  .Center {
+    @mixin ColumnFlex;
+    padding-top: 50px;
+    line-height: 34px;
+  }
+
+  .Footer {
+    @mixin SpaceBetween;
+    padding-top: 39px;
+    .date {
+      @mixin ColumnFlexCenter;
+    }
+  }
+}
