@@ -1,0 +1,13 @@
+.SendMoney {
+  .title {
+    text-align: center;
+  }
+  .Slider {
+    li {
+      padding: 30px 16px;
+      &:first-child {
+        padding-left: 35px;
+      }
+    }
+  }
+}
