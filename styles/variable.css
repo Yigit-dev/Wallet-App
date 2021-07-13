@@ -1,8 +1,21 @@
 :root {
+  /* BASE COLOR */
   --c-text: #fff;
   --c-black: #030710;
   --c-primary-text: #081c81;
   --c-shadow-text: #c4c4c4;
   --c-background: #081c81;
   --c-background-light-blue: #2547f4;
+
+  /* TYPOGRAPHY */
+  --t-small-text: 13px;
+  --t-small-weight: 500;
+  --t-light-text: 16px;
+  --t-light-weight: 500;
+  --t-medium-text: 17px;
+  --t-medium-weight: 600;
+  --t-bold-text: 22px;
+  --t-bold-weight: 700;
+  --t-bolder-text: 28px;
+  --t-bolder-weight: 800;
 }
