@@ -8,14 +8,18 @@
   --c-background-light-blue: #2547f4;
 
   /* TYPOGRAPHY */
-  --t-small-text: 13px;
-  --t-small-weight: 500;
+  --t-small-text: 8px;
+  --t-small-weight: 400;
+
   --t-light-text: 16px;
-  --t-light-weight: 500;
+  --t-light-weight: 300;
+
   --t-medium-text: 17px;
-  --t-medium-weight: 600;
+  --t-medium-weight: 400;
+
   --t-bold-text: 22px;
-  --t-bold-weight: 700;
+  --t-bold-weight: 600;
+
   --t-bolder-text: 28px;
-  --t-bolder-weight: 800;
+  --t-bolder-weight: 600;
 }

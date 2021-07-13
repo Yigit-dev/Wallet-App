@@ -4,6 +4,11 @@
   font-size: var(--t-small-text);
   font-weight: var(--t-small-weight);
 }
+.TextSmallShadow {
+  font-size: var(--t-small-text);
+  font-weight: var(--t-small-weight);
+  color: var(--c-shadow-text);
+}
 
 .TextLight {
   font-size: var(--t-light-text);
@@ -13,6 +18,12 @@
 .TextMedium {
   font-size: var(--t-medium-text);
   font-weight: var(--t-medium-weight);
+}
+
+.TextMediumShadow {
+  font-size: var(--t-medium-text);
+  font-weight: var(--t-medium-weight);
+  color: var(--c-shadow-text);
 }
 
 .TextBold {

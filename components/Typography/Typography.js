@@ -9,6 +9,14 @@ const TextSmall = ({ children, className, ...props }) => {
   )
 }
 
+const TextSmallShadow = ({ children, className, ...props }) => {
+  return (
+    <p className={cn([className, style.TextSmallShadow])} {...props}>
+      {children}
+    </p>
+  )
+}
+
 const TextLight = ({ children, className, ...props }) => {
   return (
     <p className={cn([className, style.TextLight])} {...props}>
@@ -20,6 +28,14 @@ const TextLight = ({ children, className, ...props }) => {
 const TextMedium = ({ children, className, ...props }) => {
   return (
     <p className={cn([className, style.TextMedium])} {...props}>
+      {children}
+    </p>
+  )
+}
+
+const TextMediumShadow = ({ children, className, ...props }) => {
+  return (
+    <p className={cn([className, style.TextMediumShadow])} {...props}>
       {children}
     </p>
   )
@@ -41,4 +57,12 @@ const TextBolder = ({ children, className, ...props }) => {
   )
 }
 
-export { TextSmall, TextLight, TextMedium, TextBold, TextBolder }
+export {
+  TextSmall,
+  TextSmallShadow,
+  TextLight,
+  TextMedium,
+  TextMediumShadow,
+  TextBold,
+  TextBolder,
+}
