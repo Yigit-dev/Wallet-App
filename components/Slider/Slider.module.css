@@ -1,0 +1,7 @@
+.Slider {
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  display: flex;
+  align-items: center;
+  scroll-snap-align: start;
+}
