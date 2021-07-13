@@ -37,15 +37,3 @@ h4,
 p {
   color: var(--c-text);
 }
-
-h3.money {
-  font-size: 28px;
-}
-h4.date {
-  font-size: 17px;
-  font-weight: lighter;
-}
-p.shadow-text {
-  font-size: 17px;
-  color: var(--c-shadow-text);
-}
