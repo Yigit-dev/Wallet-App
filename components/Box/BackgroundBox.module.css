@@ -1,0 +1,20 @@
+.BigBox {
+  width: 100px;
+  height: 100px;
+  border-radius: 16px;
+  background: #fff;
+}
+
+.MediumBox {
+  width: 80px;
+  height: 80px;
+  border-radius: 24px;
+  background: #fff;
+}
+
+.SmallBox {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: #fff;
+}
