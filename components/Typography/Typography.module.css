@@ -1,0 +1,26 @@
+/* Variable CSS */
+
+.TextSmall {
+  font-size: var(--t-small-text);
+  font-weight: var(--t-small-weight);
+}
+
+.TextLight {
+  font-size: var(--t-light-text);
+  font-weight: var(--t-light-weight);
+}
+
+.TextMedium {
+  font-size: var(--t-medium-text);
+  font-weight: var(--t-medium-weight);
+}
+
+.TextBold {
+  font-size: var(--t-bold-text);
+  font-weight: var(--t-bold-weight);
+}
+
+.TextBolder {
+  font-size: var(--t-bolder-text);
+  font-weight: var(--t-bolder-weight);
+}
