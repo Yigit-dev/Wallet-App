@@ -1,6 +1,6 @@
-import { Apple, Charge, Mastercard } from '../icons'
+import { Charge, Mastercard } from '../icons'
+import { charge } from '../icons/IconSettings'
 import style from './Card.module.css'
-import { apple, charge } from '../icons/IconSettings'
 import {
   TextBolder,
   TextLight,
@@ -8,22 +8,22 @@ import {
   TextSmallShadow,
 } from '../Typography/Typography'
 
-const Card = () => {
+const Card = ({ card, payment, money, type, valid }) => {
   return (
     <div className={style.Card}>
       <div className={style.Top}>
-        <Apple size={apple.size} />
+        {card}
         <Charge size={charge.size} color={charge.color} />
       </div>
       <div className={style.Center}>
-        <TextBolder>$7 534.14</TextBolder>
-        <TextMediumShadow>Platinum Plus</TextMediumShadow>
+        <TextBolder>{money}</TextBolder>
+        <TextMediumShadow>{type}</TextMediumShadow>
       </div>
       <div className={style.Footer}>
-        <Mastercard size="30" />
+        {payment}
         <div className={style.date}>
           <TextSmallShadow>VALID THRU</TextSmallShadow>
-          <TextLight>12/24</TextLight>
+          <TextLight>{valid}</TextLight>
         </div>
       </div>
     </div>
