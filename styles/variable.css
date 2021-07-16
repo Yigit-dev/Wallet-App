@@ -22,4 +22,14 @@
 
   --t-bolder-text: 28px;
   --t-bolder-weight: 600;
+
+  /*** Bottom Sheet Style ***/
+
+  /* Hide Footer Color */
+  --rsbs-bg: #fff;
+  --rsbs-ml: 7px;
+  --rsbs-mr: 7px;
+  --sheet-radius: 36px;
+  /* Backdrop Shadow */
+  --rsbs-backdrop-bg: rgba(0, 0, 0, 0);
 }
