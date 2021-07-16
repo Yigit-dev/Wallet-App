@@ -1,17 +1,25 @@
 import style from './Typography.module.css'
 import cn from 'classnames'
 
-const TextSmall = ({ children, className, ...props }) => {
+const TextSmaller = ({ children, className, ...props }) => {
   return (
-    <p className={cn([className, style.TextSmall])} {...props}>
+    <p className={cn([className, style.TextSmaller])} {...props}>
       {children}
     </p>
   )
 }
 
-const TextSmallShadow = ({ children, className, ...props }) => {
+const TextSmallerShadow = ({ children, className, ...props }) => {
   return (
-    <p className={cn([className, style.TextSmallShadow])} {...props}>
+    <p className={cn([className, style.TextSmallerShadow])} {...props}>
+      {children}
+    </p>
+  )
+}
+
+const TextSmall = ({ children, className, ...props }) => {
+  return (
+    <p className={cn([className, style.TextSmall])} {...props}>
       {children}
     </p>
   )
@@ -58,8 +66,9 @@ const TextBolder = ({ children, className, ...props }) => {
 }
 
 export {
+  TextSmaller,
+  TextSmallerShadow,
   TextSmall,
-  TextSmallShadow,
   TextLight,
   TextMedium,
   TextMediumShadow,

@@ -6,12 +6,16 @@
   --c-shadow-text: #c4c4c4;
   --c-background: #081c81;
   --c-background-light-blue: #2547f4;
+  --c-dollar: #6f8099;
 
   /* TYPOGRAPHY */
+  --t-smaller-text: 8px;
+  --t-smaller-weight: 400;
+
   --t-small-text: 8px;
   --t-small-weight: 400;
 
-  --t-light-text: 16px;
+  --t-light-text: 17px;
   --t-light-weight: 300;
 
   --t-medium-text: 17px;

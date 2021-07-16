@@ -9,7 +9,7 @@ export const BigBox = ({ children, className, ...props }) => {
   )
 }
 
-export const MediumBox = ({ children, ...props }) => {
+export const MediumBox = ({ children, className, ...props }) => {
   return (
     <div className={cn([className, style.MediumBox])} {...props}>
       {children}
@@ -17,9 +17,13 @@ export const MediumBox = ({ children, ...props }) => {
   )
 }
 
-export const SmallBox = ({ children, ...props }) => {
+export const SmallBox = ({ children, className, color, ...props }) => {
   return (
-    <div className={cn([className, style.SmallBox])} {...props}>
+    <div
+      className={cn([className, style.SmallBox])}
+      style={{ backgroundColor: color }}
+      {...props}
+    >
       {children}
     </div>
   )

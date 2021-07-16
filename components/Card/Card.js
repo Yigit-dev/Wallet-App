@@ -5,7 +5,7 @@ import {
   TextBolder,
   TextLight,
   TextMediumShadow,
-  TextSmallShadow,
+  TextSmallerShadow,
 } from '../Typography/Typography'
 
 const Card = ({ card, payment, money, type, valid }) => {
@@ -22,7 +22,7 @@ const Card = ({ card, payment, money, type, valid }) => {
       <div className={style.Footer}>
         {payment}
         <div className={style.date}>
-          <TextSmallShadow>VALID THRU</TextSmallShadow>
+          <TextSmallerShadow>VALID THRU</TextSmallerShadow>
           <TextLight>{valid}</TextLight>
         </div>
       </div>

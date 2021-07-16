@@ -1,13 +1,19 @@
 /* Variable CSS */
 
+.TextSmaller {
+  font-size: var(--t-smaller-text);
+  font-weight: var(--t-smaller-weight);
+}
+
+.TextSmallerShadow {
+  font-size: var(--t-smaller-text);
+  font-weight: var(--t-smaller-weight);
+  color: var(--c-shadow-text);
+}
+
 .TextSmall {
   font-size: var(--t-small-text);
   font-weight: var(--t-small-weight);
-}
-.TextSmallShadow {
-  font-size: var(--t-small-text);
-  font-weight: var(--t-small-weight);
-  color: var(--c-shadow-text);
 }
 
 .TextLight {

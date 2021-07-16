@@ -13,6 +13,11 @@ const globalMixins = {
     display: 'flex',
     'flex-direction': 'column',
   },
+  Center: {
+    display: 'flex',
+    'justify-content': 'center',
+    'align-items': 'center',
+  },
 }
 
 module.exports = globalMixins
