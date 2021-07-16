@@ -1,0 +1,29 @@
+.Expense {
+  padding-bottom: 22px;
+  @mixin SpaceBetween;
+  .logo {
+    @mixin Center;
+    .brand {
+      @mixin ColumnFlex;
+      margin-left: 20px;
+      p:first-child {
+        color: var(--c-primary-text);
+      }
+      .info {
+        padding-top: 8px;
+        p:nth-child(1) {
+          color: var(--c-shadow-text);
+        }
+        p:nth-child(2) {
+          color: var(--c-black);
+        }
+      }
+    }
+  }
+  .expense {
+    color: var(--c-black);
+    span {
+      color: var(--c-dollar);
+    }
+  }
+}
