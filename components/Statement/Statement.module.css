@@ -1,0 +1,14 @@
+.Statement {
+  background: #2547f4;
+  border-radius: 36px 36px 0 0;
+  padding: 26px 30px;
+
+  @mixin SpaceBetween;
+  .income,
+  .spent {
+    @mixin ColumnFlex;
+  }
+  h4 {
+    color: var(--c-dollar);
+  }
+}
