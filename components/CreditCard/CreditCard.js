@@ -4,6 +4,7 @@ import Slider from '../Slider/Slider'
 import { Apple, Charge, Mastercard, Bitcoin, VisaLogo } from '../icons'
 import { apple, charge } from '../icons/IconSettings'
 import Link from 'next/link'
+
 const CreditCard = () => {
   return (
     <div className={style.CreditCard}>
