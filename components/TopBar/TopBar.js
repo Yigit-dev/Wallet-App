@@ -1,14 +1,9 @@
 import style from './TopBar.module.css'
-import { Grid, Search } from '../icons'
-import { grid, search } from '../icons/IconSettings'
 
-const TopBar = () => {
+const TopBar = ({ children }) => {
   return (
     <div className={style.TopBar}>
-      <div className={style.icons}>
-        <Grid color={grid.color} size={grid.size} />
-        <Search color={search.color} size={search.size} />
-      </div>
+      <div className={style.icons}>{children}</div>
     </div>
   )
 }

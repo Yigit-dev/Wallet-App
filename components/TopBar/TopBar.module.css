@@ -1,6 +1,6 @@
 .TopBar {
   background: transparent;
-  padding: 22px 30px;
+  padding: 40px 30px;
   .icons {
     @mixin SpaceBetween;
   }
