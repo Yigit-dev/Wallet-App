@@ -1,6 +1,6 @@
 .WaveBackground {
   svg {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: -100px;
     &:first-child {
