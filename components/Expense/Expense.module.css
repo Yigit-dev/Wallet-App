@@ -1,5 +1,5 @@
 .Expense {
-  padding-bottom: 22px;
+  padding-bottom: 24px;
   @mixin SpaceBetween;
   .logo {
     @mixin Center;
@@ -10,7 +10,7 @@
         color: var(--c-primary-text);
       }
       .info {
-        padding-top: 8px;
+        padding-top: 3px;
         p:nth-child(1) {
           color: var(--c-shadow-text);
         }
