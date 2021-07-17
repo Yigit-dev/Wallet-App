@@ -1,0 +1,9 @@
+.TotalBalance {
+  padding: 40px 30px;
+  p {
+    padding-bottom: 10px;
+  }
+  .money {
+    @mixin SpaceBetween;
+  }
+}
