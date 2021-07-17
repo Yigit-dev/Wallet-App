@@ -6,6 +6,7 @@ import { leftArrow } from '../components/icons/IconSettings'
 import TopBar from '../components/TopBar/TopBar'
 import Statement from '../components/Statement/Statement'
 import Link from 'next/link'
+import Expenses from '../components/Expenses/Expenses'
 
 export default function CardDetailPage() {
   return (
@@ -13,11 +14,14 @@ export default function CardDetailPage() {
       <WaveBackground />
       <TopBar>
         <Link href="/">
-          <LeftArrow color={leftArrow.color} size={leftArrow.size} />
+          <a>
+            <LeftArrow color={leftArrow.color} size={leftArrow.size} />
+          </a>
         </Link>
       </TopBar>
       <TotalBalance />
       <Statement />
+      <Expenses />
     </Layout>
   )
 }

@@ -1,0 +1,25 @@
+.Sheet {
+  [data-rsbs-overlay] {
+    margin: 0;
+  }
+}
+.Expenses {
+  padding: 96px 30px 16px;
+  .bar {
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    display: block;
+    top: 20px;
+    width: 85%;
+    height: auto;
+
+    .topBar {
+      @mixin SpaceBetween;
+      padding-top: 25px;
+      p {
+        color: var(--c-primary-text);
+      }
+    }
+  }
+}
