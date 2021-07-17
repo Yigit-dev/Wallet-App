@@ -65,6 +65,14 @@ const TextBolder = ({ children, className, ...props }) => {
   )
 }
 
+const TextExtraBolder = ({ children, className, ...props }) => {
+  return (
+    <p className={cn([className, style.TextExtraBolder])} {...props}>
+      {children}
+    </p>
+  )
+}
+
 export {
   TextSmaller,
   TextSmallerShadow,
@@ -74,4 +82,5 @@ export {
   TextMediumShadow,
   TextBold,
   TextBolder,
+  TextExtraBolder,
 }

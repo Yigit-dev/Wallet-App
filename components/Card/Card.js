@@ -1,4 +1,4 @@
-import { Charge, Mastercard } from '../icons'
+import { Charge } from '../icons'
 import { charge } from '../icons/IconSettings'
 import style from './Card.module.css'
 import {

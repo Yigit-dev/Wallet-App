@@ -41,3 +41,8 @@
   font-size: var(--t-bolder-text);
   font-weight: var(--t-bolder-weight);
 }
+
+.TextExtraBolder {
+  font-size: var(--t-extra-bolder-text);
+  font-weight: var(--t-extra-bolder-weight);
+}
