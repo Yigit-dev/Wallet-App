@@ -1,0 +1,13 @@
+.WaveBackground {
+  svg {
+    position: absolute;
+    top: 0;
+    left: -100px;
+    &:first-child {
+      z-index: -1;
+    }
+    &:last-child {
+      z-index: -2;
+    }
+  }
+}

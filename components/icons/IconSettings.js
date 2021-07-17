@@ -10,3 +10,4 @@ export const amazon = { color: '#f9f9f9', size: '25' }
 export const netflix = { color: '#111', size: '25' }
 export const uber = { color: '#000', size: '25' }
 export const spotify = { color: '#000', size: '25' }
+export const leftArrow = { color: '#fff', size: '26' }
