@@ -12,6 +12,7 @@
   "dependencies": {
     "autoprefixer": "^10.2.6",
     "classnames": "^2.3.1",
+    "framer-motion": "^4.1.17",
     "next": "11.0.1",
     "postcss": "^8.3.5",
     "postcss-custom-properties-fallback": "^1.0.1",
