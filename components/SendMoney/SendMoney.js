@@ -17,7 +17,7 @@ const SendMoney = () => {
             <Person name="Chris" />
           </li>
           <li>
-            <Person name="Yiğit" />
+            <Person name="Yiğit Çakmak" />
           </li>
           <li>
             <Person name="Şeftali" />

@@ -1,6 +1,7 @@
 .Person {
+  @mixin ColumnFlexCenter;
+  padding: 30px 14px;
   p {
-    padding-top: 66px;
     text-align: center;
     color: var(--c-primary-text);
   }
