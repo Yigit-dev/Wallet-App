@@ -1,6 +1,6 @@
 # Overview
 
-![](video.gif)
+![](project.gif)
 
 ### Home Page
 
