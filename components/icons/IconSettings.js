@@ -11,3 +11,5 @@ export const netflix = { color: '#111', size: '25' }
 export const uber = { color: '#000', size: '25' }
 export const spotify = { color: '#000', size: '25' }
 export const leftArrow = { color: '#fff', size: '26' }
+export const bitcoin = { color: '#fff', size: '26' }
+export const visa = { color: '#fff', size: '30' }

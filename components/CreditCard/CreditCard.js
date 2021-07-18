@@ -1,8 +1,9 @@
 import style from './CreditCard.module.css'
+import cardStyle from '../Card/Card.module.css'
 import Card from '../Card/Card'
 import Slider from '../Slider/Slider'
 import { Apple, Charge, Mastercard, Bitcoin, VisaLogo } from '../icons'
-import { apple, charge } from '../icons/IconSettings'
+import { apple, charge, bitcoin, visa } from '../icons/IconSettings'
 import Link from 'next/link'
 
 const CreditCard = () => {
@@ -13,7 +14,7 @@ const CreditCard = () => {
           <Link href="/card_detail" scroll={false}>
             <a>
               <Card
-                card={<Apple size={apple.size} />}
+                cardIcon={<Apple size={apple.size} />}
                 payment={<Mastercard size="30" />}
                 money="$7 534.14"
                 type="Platinum Plus"
@@ -26,7 +27,9 @@ const CreditCard = () => {
           <Link href="/card_detail" scroll={false}>
             <a>
               <Card
-                card={<Apple size={apple.size} />}
+                className={cardStyle.Bitcoin}
+                cardIcon={<Bitcoin size={bitcoin.size} />}
+                payment={<VisaLogo size={visa.size} color={visa.color} />}
                 money="$7 534.14"
                 type="Platinum Plus"
                 valid="12/24"
@@ -38,8 +41,8 @@ const CreditCard = () => {
           <Link href="/card_detail" scroll={false}>
             <a>
               <Card
-                card={<Apple size={apple.size} />}
-                payment={<Mastercard size="30" />}
+                className={cardStyle.MasterCard}
+                cardIcon={<Mastercard size={apple.size} />}
                 money="$7 534.14"
                 type="Platinum Plus"
                 valid="12/24"

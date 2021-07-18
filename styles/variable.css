@@ -39,4 +39,8 @@
   --sheet-radius: 36px;
   /* Backdrop Shadow */
   --rsbs-backdrop-bg: rgba(0, 0, 0, 0);
+
+  /* Custom CreditCard */
+  --c-bg-mastercard: #030710;
+  --c-t-mastercard: #081c81;
 }

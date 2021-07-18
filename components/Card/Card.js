@@ -3,16 +3,17 @@ import { charge } from '../icons/IconSettings'
 import style from './Card.module.css'
 import {
   TextBolder,
-  TextLight,
   TextMediumShadow,
   TextSmallerShadow,
+  TextMedium,
 } from '../Typography/Typography'
+import cn from 'classnames'
 
-const Card = ({ card, payment, money, type, valid }) => {
+const Card = ({ className, cardIcon, payment, money, type, valid }) => {
   return (
-    <div className={style.Card}>
+    <div className={cn([style.Card, className])}>
       <div className={style.Top}>
-        {card}
+        {cardIcon}
         <Charge size={charge.size} color={charge.color} />
       </div>
       <div className={style.Center}>
@@ -23,7 +24,7 @@ const Card = ({ card, payment, money, type, valid }) => {
         {payment}
         <div className={style.date}>
           <TextSmallerShadow>VALID THRU</TextSmallerShadow>
-          <TextLight>{valid}</TextLight>
+          <TextMedium>{valid}</TextMedium>
         </div>
       </div>
     </div>

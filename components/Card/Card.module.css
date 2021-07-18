@@ -5,7 +5,7 @@
   border-radius: 16px;
   padding: 22px 20px;
   background: var(--c-background);
-
+  box-shadow: 0 3px 4px #222;
   .Top {
     @mixin SpaceBetween;
   }
@@ -22,5 +22,27 @@
     .date {
       @mixin ColumnFlexCenter;
     }
+  }
+
+  /* CreditCard Custom Style */
+  &.MasterCard {
+    background: #fff;
+
+    .Center {
+      p {
+        &:first-child {
+          color: var(--c-bg-mastercard);
+        }
+      }
+    }
+
+    .Footer {
+      p {
+        color: var(--c-t-mastercard);
+      }
+    }
+  }
+  &.Bitcoin {
+    background: var(--c-black);
   }
 }
