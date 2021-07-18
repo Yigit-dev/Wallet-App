@@ -2,5 +2,6 @@
   [data-rsbs-overlay] {
     border-top-left-radius: var(--sheet-radius);
     border-top-right-radius: var(--sheet-radius);
+    max-width: 640px;
   }
 }
