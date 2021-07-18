@@ -24,8 +24,8 @@ const Expenses = () => {
               </MediumBox>
             }
             brand="Netflix"
-            nextPayment="next payment"
-            date="15/12/2019"
+            nextPayment="18/07/2021"
+            date="15/07/2021"
             expense="7.99"
           />
           <Expense
@@ -36,8 +36,8 @@ const Expenses = () => {
             }
             brand="Amazon"
             nextPayment="next payment"
-            date="15/12/2019"
-            expense="7.99"
+            date="15/07/2021"
+            expense="50.25"
           />
           <Expense
             box={
@@ -47,8 +47,30 @@ const Expenses = () => {
             }
             brand="Uber"
             nextPayment="next payment"
-            date="15/12/2019"
-            expense="7.99"
+            date="25/07/2021"
+            expense="17.99"
+          />
+          <Expense
+            box={
+              <MediumBox color={amazon.color}>
+                <Amazon size="40" />
+              </MediumBox>
+            }
+            brand="Amazon"
+            nextPayment="next payment"
+            date="15/07/2021"
+            expense="27.99"
+          />
+          <Expense
+            box={
+              <MediumBox color={uber.color}>
+                <Uber size="40" />
+              </MediumBox>
+            }
+            brand="Uber"
+            nextPayment="next payment"
+            date="15/07/2021"
+            expense="8"
           />
         </div>
       </div>
