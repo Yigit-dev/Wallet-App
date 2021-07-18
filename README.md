@@ -1,17 +1,30 @@
+# Overview
+
+![](video.gif)
+
+### Home Page
+
+![](1.PNG)
+
+### Card Detail Page
+
+![](2.PNG)
+
 ## Summary
 
-**This project continues...**
+I'm testing coding skills with Next.js
+
+##  Note
+
+:exclamation: This project is made for mobile devices only
 
 ## Tools & Technologies
 
 - React.js
-
 - Next.js
-
+- Framer Motion
 - Html & PostCSS
-
 - SVGR
-
 - Figma
 
 ## Thanks
