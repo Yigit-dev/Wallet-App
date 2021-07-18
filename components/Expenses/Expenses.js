@@ -7,7 +7,7 @@ import Expense from '../Expense/Expense'
 import { MediumBox } from '../Box/BackgroundBox'
 
 const Expenses = () => {
-  const measure = [3, 2.1, 0.5]
+  const measure = [2.7, 2, 0.4]
   return (
     <SpringSheet className={style.Sheet} measure={measure}>
       <div className={style.Expenses}>
